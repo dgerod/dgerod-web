@@ -40,7 +40,7 @@ a:hover {
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
+	font-size: 14px;
 	color: #464e54;
 	margin: 0;
 	padding: 0;
@@ -57,11 +57,11 @@ h2,
 h3,
 h4 {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 h1 {
-	font-size: 30px;
+	font-size: 32px;
 	line-height: 1;
 	color: #fff;
 }
@@ -74,7 +74,7 @@ h3 {
 }
 
 h4 {
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.2;
 	margin-bottom: 5px;
 }
@@ -111,7 +111,7 @@ h4 {
 #logo,
 #logo a {
 	text-decoration: none;
-	font-size: 26px;
+	font-size: 28px;
 	color: #fffefe;
 	font-weight: normal;
 	font-family: Arial, Helvetica, sans-serif;
@@ -120,7 +120,7 @@ h4 {
 #slogan,
 #slogan a {
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 22px;
 	color: #fffefe;
 	font-weight: normal;
 	font-family: Arial, Helvetica, sans-serif;
@@ -161,7 +161,7 @@ h4 {
 	float: left;
 	display: block;
 	color: #fff;
-	font-size: 12px;
+	font-size: 14px;
 	text-decoration: none;
 	padding: 0 12px 0 15px;
 	margin: 0;
@@ -313,7 +313,7 @@ h4 {
 	font-family: Arial, Helvetica, sans-serif;
 	color: #666666;
 	vertical-align: middle;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 #header-right .wsite-search-button {
@@ -339,7 +339,7 @@ h4 {
 	width: 760px;
 	font-family: Arial, Helvetica, sans-serifl;
 	color: #5f5c4f;
-	font-size: 12px;
+	font-size: 14px;
 	border-top: 1px solid #c4c4c4;
 	text-align: right;
 }
@@ -494,7 +494,7 @@ h4 {
 }
 
 #banner-right h2 {
-	font-size: 24px;
+	font-size: 26px;
 	color: #464e54;
 }
 
@@ -569,7 +569,7 @@ h4 {
 	display: inline-block;
 	color: #464e54;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 13px;
+	font-size: 15px;
 	font-weight: normal;
 	padding: 12px 0 5px 0;
 }
@@ -579,7 +579,7 @@ h4 {
 
 .wsite-form-input {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
+	font-size: 14px;
 	background: #fff;
 	color: #464e54;
 	border: 1px solid #d3d3d3;
@@ -592,7 +592,7 @@ h4 {
 
 .form-select {
 	color: #464e54;
-	font-size: 12px;
+	font-size: 14px;
 	background: #fff;
 	border: 1px solid #d3d3d3;
 	padding: 3px;
@@ -626,7 +626,7 @@ h4 {
 	color: #fff !important;
 	height: 34px;
 	display: inline-block;
-	font-size: 14px;
+	font-size: 16px;
 	border: none;
 	font-weight: bold;
 	text-decoration: none;
@@ -646,7 +646,7 @@ h4 {
 	height: 34px;
 	line-height: 34px;
 	display: block;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: bold;
 	border: none;
 	text-decoration: none;

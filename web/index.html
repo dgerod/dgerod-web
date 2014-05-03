@@ -7,36 +7,57 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
-<script type="text/javascript" language="Javascript" 
-        src="http://code.jquery.com/jquery-1.8.3.min.js"></script><link rel='stylesheet' type='text/css' href='http://cdn1.editmysite.com/editor/libraries/fancybox/fancybox.css?1360373131' />
-<link rel='stylesheet' href='http://cdn1.editmysite.com/editor/images/common/common-v2.css?buildTime=1360373131' type='text/css' />
-<link rel='stylesheet' type='text/css' href='files/main_style.css?1360506838' title='wsite-theme-css' />
+<!-- jQuery  -->
+<script type="text/javascript" language="Javascript"        src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+
+<!-- Google AJAX feed control  -->
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">
+google.load("feeds", "1") </script>
+
+<script src="http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.js" type="text/javascript"></script><link rel="stylesheet" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1399070697" type="text/css" /><link rel='stylesheet' type='text/css' href='http://cdn1.editmysite.com/editor/libraries/fancybox/fancybox.css?1399070697' />
+<link rel='stylesheet' type='text/css' href='files/main_style.css?1399096434' title='wsite-theme-css' />
 <style type='text/css'>
-.wsite-elements div.paragraph, .wsite-elements p, .wsite-elements .product-block .product-title, .wsite-elements .product-description, .wsite-elements .wsite-form-field label, .wsite-elements .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-not-footer div.paragraph, .wsite-elements.wsite-not-footer p, .wsite-elements.wsite-not-footer .product-block .product-title, .wsite-elements.wsite-not-footer .product-description, .wsite-elements.wsite-not-footer .wsite-form-field label, .wsite-elements.wsite-not-footer .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
 #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
-.wsite-elements h2, .wsite-elements .product-long .product-title, .wsite-elements .product-large .product-title, .wsite-elements .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer h2, .wsite-elements.wsite-not-footer .product-long .product-title, .wsite-elements.wsite-not-footer .product-large .product-title, .wsite-elements.wsite-not-footer .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
 #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
 #wsite-title {font-size:30px !important;}
+.wsite-menu-default a {}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline {}
+.wsite-headline-paragraph {}
+.wsite-button-inner {}
+.wsite-not-footer blockquote, #wsite-com-product-tab blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
 </style>
-<script type='text/javascript'><!--
-var STATIC_BASE = 'http://cdn1.editmysite.com/';
+
+<script><!--
+var STATIC_BASE = '//cdn1.editmysite.com/';
 var STYLE_PREFIX = 'wsite';
 //-->
 </script>
-<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
-<script type='text/javascript' src='http://cdn1.editmysite.com/editor/libraries/jquery_effects.js?1360373131'></script>
-<script type='text/javascript' src='http://cdn1.editmysite.com/editor/libraries/jquery.animate.js?1360373131'></script>
-<script type='text/javascript' src='http://cdn1.editmysite.com/editor/libraries/fancybox/fancybox.min.js?1360373131'></script>
-<script type='text/javascript' src='http://cdn1.editmysite.com/editor/images/common/utilities-jq.js?1360373131'></script>
-<script type='text/javascript' src='http://cdn1.editmysite.com/editor/libraries/flyout_menus_jq.js?1360373131'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+<script src='http://cdn2.editmysite.com/js/site/main.js?buildTime=1399070697'></script>
+<script>_W.relinquish && _W.relinquish()</script>
 <script type='text/javascript'><!--
 var IS_ARCHIVE=1;
 var DISABLE_NAV_MORE=1;
 (function(jQuery){
-function initFlyouts(){initPublishedFlyoutMenus([{"id":"828216868223926723","title":"Home","url":"index.html"},{"id":"546868663753884802","title":"Blog","url":"http:\/\/dgerod.blogspot.com"},{"id":"762370191439297492","title":"Scratchpad","url":"http:\/\/dgerod.tiddlyspace.com\/"},{"id":"290763650540625312","title":"Twitter","url":"https:\/\/twitter.com\/dgerod"},{"id":"635552848495313176","title":"G+","url":"http:\/\/gplus.to\/dgerod"},{"id":"266053274993381754","title":"LinkedIn","url":"http:\/\/es.linkedin.com\/in\/dgerod"},{"id":"575703954259451194","title":"About me","url":"about-me.html"}],'828216868223926723',"<li class='wsite-nav-more'><a href='#'>more...<\/a><\/li>",'active',false)}
+function initFlyouts(){initPublishedFlyoutMenus([{"id":"828216868223926723","title":"Home","url":"index.html","target":""},{"id":"546868663753884802","title":"Blog","url":"http:\/\/dgerod.blogspot.com.es","target":""},{"id":"762370191439297492","title":"Scratchpad","url":"http:\/\/dgerod.tiddlyspace.com\/","target":""},{"id":"290763650540625312","title":"Twitter","url":"https:\/\/twitter.com\/dgerod","target":""},{"id":"635552848495313176","title":"G+","url":"http:\/\/gplus.to\/dgerod","target":""},{"id":"266053274993381754","title":"LinkedIn","url":"http:\/\/es.linkedin.com\/in\/dgerod","target":""},{"id":"575703954259451194","title":"About me","url":"about-me.html","target":""},{"id":"486194602843471458","title":"Contact","url":"contact.html","target":""}],"828216868223926723","<li><a href='#'>{{title}}<\/a><\/li>",'active',false)}
 if (jQuery) {
-if (jQuery.browser.msie) window.onload = initFlyouts;
-else jQuery(initFlyouts)
+if (jQuery.browser.msie && !window.flyoutMenusRefreshable) window.onload = initFlyouts;
+else jQuery(initFlyouts);
 }else{
 if (Prototype.Browser.IE) window.onload = initFlyouts;
 else document.observe('dom:loaded', initFlyouts);
@@ -45,7 +66,7 @@ else document.observe('dom:loaded', initFlyouts);
 //-->
 </script>
 </head>
-<body class='wsite-theme-light no-header-page wsite-page-index'>
+<body class=' no-header-page  wsite-theme-light wsite-page-index'>
 <div id="header-wrap">
 	<div id="header-top">
 		<table id="header">
@@ -66,7 +87,7 @@ else document.observe('dom:loaded', initFlyouts);
 </div>
 <div id="navigation-wrap">
 	<div id="navigation">
-		<ul><li id='active'><a href='index.html'>Home</a></li><li id='pg546868663753884802'><a href='http://dgerod.blogspot.com'>Blog</a></li><li id='pg762370191439297492'><a href='http://dgerod.tiddlyspace.com/'>Scratchpad</a></li><li id='pg290763650540625312'><a href='https://twitter.com/dgerod'>Twitter</a></li><li id='pg635552848495313176'><a href='http://gplus.to/dgerod'>G+</a></li><li id='pg266053274993381754'><a href='http://es.linkedin.com/in/dgerod'>LinkedIn</a></li><li id='pg575703954259451194'><a href='about-me.html'>About me</a></li></ul>
+		<ul class='wsite-menu-default'><li id='active'><a href='index.html'>Home</a></li><li id='pg546868663753884802'><a href='http://dgerod.blogspot.com.es'>Blog</a></li><li id='pg762370191439297492'><a href='http://dgerod.tiddlyspace.com/'>Scratchpad</a></li><li id='pg290763650540625312'><a href='https://twitter.com/dgerod'>Twitter</a></li><li id='pg635552848495313176'><a href='http://gplus.to/dgerod'>G+</a></li><li id='pg266053274993381754'><a href='http://es.linkedin.com/in/dgerod'>LinkedIn</a></li><li id='pg575703954259451194'><a href='about-me.html'>About me</a></li><li id='pg486194602843471458'><a href='contact.html'>Contact</a></li></ul>
 		<div class="clear"></div>
 	</div>
 	<div class="clear"></div>
@@ -82,19 +103,33 @@ else document.observe('dom:loaded', initFlyouts);
 	<div id="main">
 		<div id="content">
 			<div id='wsite-content' class='wsite-elements wsite-not-footer'>
+<blockquote style="text-align:center;"><em style="">I am interested in&nbsp;<a href="http://en.wikipedia.org/wiki/Robotics" title="" style="">#Robotics</a>&nbsp;but I am able to speak about other things... sometimes.</em><br /></blockquote>
+
 <div><div class="wsite-multicol"><div class='wsite-multicol-table-wrap' style='margin:0 -15px'>
 <table class='wsite-multicol-table'>
 <tbody class='wsite-multicol-tbody'>
 <tr class='wsite-multicol-tr'>
 <td class='wsite-multicol-col' style='width:57.48730964467%;padding:0 15px'>
 
-<h2 style="text-align:left;"><font size="4">Life stream</font><br /></h2>
+<div><div id="405038693449849287" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><h2>Lifestream</h2>
 
-<div><div id="305445148213158360" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><script language="JavaScript" src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fpipes.yahoo.com%2Fpipes%2Fpipe.run%3F_id%3D5e20e0842ec3c5b798a3ec787461da6b%26_render%3Drss&num=10&date=y&utf=y"  charset="UTF-8" type="text/javascript"></script>
+<a class="twitter-timeline"  href="https://twitter.com/dgerod"  data-widget-id="353409690656448513" data-chrome="noheader nofooter noborders transparent" data-link-color="#578300" data-tweet-limit="4">Tweets by @dgerod</a>
 
-<noscript>
-<a href="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fpipes.yahoo.com%2Fpipes%2Fpipe.run%3F_id%3D5e20e0842ec3c5b798a3ec787461da6b%26_render%3Drss&num=10&date=y&utf=y&html=y">View RSS feed</a>
-</noscript></div>
+<script>
+!function(d,s,id){
+   var js,
+   fjs=d.getElementsByTagName(s)[0],
+   p=/^http:/.test(d.location)?'http':'https';
+
+   if(!d.getElementById(id)){
+      js=d.createElement(s);
+      js.id=id;
+      js.src=p+"://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js,fjs);
+   }
+} (document,"script","twitter-wjs");
+</script>
+</div>
 
 
 
@@ -103,68 +138,37 @@ else document.observe('dom:loaded', initFlyouts);
 </td>
 <td class='wsite-multicol-col' style='width:42.51269035533%;padding:0 15px'>
 
-<h2 style="text-align:left;">Portfolio<br /></h2>
+<div><div id="479044481717395184" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><h2>Portfolio</h2>
 
-<div><div id="479044481717395184" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><embed type="application/x-shockwave-flash" src="https://picasaweb.google.com/s/c/bin/slideshow.swf" width="288" height="192" flashvars="host=picasaweb.google.com&hl=en_US&feat=flashalbum&RGB=0x000000&feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F101542046887408327725%2Falbumid%2F5793985497331127281%3Falt%3Drss%26kind%3Dphoto%26hl%3Den_US" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed></div>
+<embed type="application/x-shockwave-flash" src="https://picasaweb.google.com/s/c/bin/slideshow.swf" width="288" height="192" flashvars="host=picasaweb.google.com&hl=en_US&feat=flashalbum&RGB=0x000000&feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F101542046887408327725%2Falbumid%2F5793985497331127281%3Falt%3Drss%26kind%3Dphoto%26hl%3Den_US" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</br>
+</br></div>
 
 
 
 </div>
 
-<h2 style="text-align:left;"></h2>
-
-<h2 style="text-align:left;">Posts<br /></h2>
-
-<div><div id="547722932837421811" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><script language="JavaScript" src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fpipes.yahoo.com%2Fpipes%2Fpipe.run%3F_id%3Ddcefc8bc01f721d50e9079238de2b917%26_render%3Drss&num=3&date=y&utf=y"  charset="UTF-8" type="text/javascript"></script>
+<div><div id="547722932837421811" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><h2>Latest posts</h2>
+<script language="JavaScript" src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fpipes.yahoo.com%2Fpipes%2Fpipe.run%3F_id%3Ddcefc8bc01f721d50e9079238de2b917%26_render%3Drss&num=3&date=y&utf=y"  charset="UTF-8" type="text/javascript">
+</script>
 
 <noscript>
-<a href="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fpipes.yahoo.com%2Fpipes%2Fpipe.run%3F_id%3Ddcefc8bc01f721d50e9079238de2b917%26_render%3Drss&num=3&date=y&utf=y&html=y">View RSS feed</a>
+<a href="http://dgerod.blogspot.com.es">Posts by @dgerod</a></br>
 </noscript></div>
 
 
 
 </div>
 
-<div class="paragraph" style="text-align:left;">See <a style="" title="" href="http://dgerod.blogspot.com.es/">all entries</a>...</div>
-
 <div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
 <hr class="styled-hr" style="width:100%;"></hr>
 <div style="height: 10px; overflow: hidden; width: 100%;"></div></div>
 
-<div><div id="846478647983118251" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><script type="text/javascript" src="http://dgerod.xyz-lab.org.es/files/theme/create_tw_feed.js"></script>
-<script type="text/javascript">
-
-// The URL of the RSS feed you want to display
-var url ="http://dgerod.tiddlyspace.com/tiddlers.json?select=tag:%toRSS&sort=-written&limit=3";
-
-$(document).ready( create_tw_feed(url,"feedItems") );
-
-</script>
-<div id="feedItems"></div>
-</div>
+<div><div id="199042576250859952" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png"/></a></div>
 
 
 
 </div>
-
-<div><div class="wsite-multicol"><div class='wsite-multicol-table-wrap' style='margin:0 -15px'>
-<table class='wsite-multicol-table'>
-<tbody class='wsite-multicol-tbody'>
-<tr class='wsite-multicol-tr'>
-<td class='wsite-multicol-col' style='width:36.390532544379%;padding:0 15px'>
-
-<div><div id="199042576250859952" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a></div>
-
-
-
-</div>
-
-</td>
-<td class='wsite-multicol-col' style='width:63.609467455621%;padding:0 15px'></td>
-</tr>
-</tbody>
-</table>
-</div></div></div>
 
 </td>
 </tr>
